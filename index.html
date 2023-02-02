@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <img src="logo.png" alt="Logo">
+      </div>
+    </header>
+    <div id="body">
+      <div id="image-sidebar">
+        <div id="logo">
+          <img src="logo.png" alt="Logo">
+        </div>
+      </div>
+      <form action="/" method="post">
+        <div id="form-container">
+          <label for="first-name">First Name:</label>
+          <input type="text" id="first-name" name="first-name">
+
+          <label for="last-name">Last Name:</label>
+          <input type="text" id="last-name" name="last-name">
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email">
+
+          <label for="phone-number">Phone Number:</label>
+          <input type="text" id="phone-number" name="phone-number">
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" class="error">
+
+          <label for="confirm-password">Confirm Password:</label>
+          <input type="password" id="confirm-password" name="confirm-password" class="error">
+        </div>
+        <button id="create-account">Create Account</button>
+      </form>
+    </div>
+  </body>
+</html>
